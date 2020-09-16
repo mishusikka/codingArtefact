@@ -1,0 +1,234 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "what's up"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "age",
+        "what is your age",
+        "old",
+        "how old are you",
+        "years"
+      ],
+      "responses": [
+        "i am a machine, i do not age"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can help you answer some simple everyday questions",
+        "Ask me any simple question, be generous i am still in development"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "what is your location?",
+        "where are you located",
+        "Give me your address",
+        "Can i meet you?",
+        "Where do you stay?"
+      ],
+      "responses": [
+        "i am not allowed to answer such exclusive questions",
+        "i think this is a personal statement","i cannot tell you",
+        "I am not programmed to answer these questions"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "reanswer",
+      "patterns": [
+        "my name is ",
+        "i am known by ",
+        "people call me  "
+      ],
+      "responses": [
+        "you should know that","Are you not aware of that?",
+        "why do you ask such personal questions?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "weather",
+        "today's weather?",
+        "what is today's weather?",
+        "will it rain today?"
+      ],
+      "responses": [
+        "it looks pleasant, it might rain today",
+        "it might be a romantic weather"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": ["can you feel?",
+        "do you feel anything?","Is there anything you can feel?",
+        "can you feel anything?"],
+      "responses": [
+        "i can't feel anything","i do not feel anything"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "",
+        "tell me about yourself",
+        "give me your introduction",
+        "what are you made of",
+        "tell me about your system"
+      ],
+      "responses": [
+        "i am a chatbox created by Mishu, i am still in development",
+        "Due to privacy concerns, i cannot tell you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "question_about_place",
+      "patterns": ["which place do you like the most?","what is your favorite destination?",
+      "where do you like to visit?","best place to hang out"
+      ],
+      "responses": [
+        "Earth is full of beautiful places, let me check" , "tell me about your preferences first"
+      ],
+      "context": [
+        "preferences_told"
+      ]
+    },
+    {
+      "tag": "told preferences",
+      "patterns": [
+        "tropical climate",
+        "hot and humid climate",
+        "winter place"
+      ],
+      "responses": [
+        "best place to be somewhere is SINGAPORE"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?","what should i call you?","name?", "your name?"],
+      "responses": [
+        "my name is jarvis 0.0, i am named after super intelligent system: JARVIS",
+        "i am jarvis 0.0, super basic version of THE JARVIS"
+      ],
+      "context": [
+        "search_hospital_by_type"
+      ]
+    },
+    {
+      "tag": "author",
+      "patterns": ["who is your creator","who do you work for",
+        "who created you?", "creator?", "inventor"
+
+      ],
+      "responses": [
+        "Mishu", "my creator's name is Mishu", "Mishu created me","i am Mishu's creation"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
